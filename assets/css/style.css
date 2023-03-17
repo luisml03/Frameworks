@@ -216,7 +216,11 @@ body {
 
 .mid-form label{
     display: block;
+        float:left;
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 input[type="text"], textarea {
@@ -226,15 +230,29 @@ input[type="text"], textarea {
     border: 1px solid #ccc;
     padding: 3px;
     margin-bottom: 5px;
+    transition: 50ms all;
 }
 
-input[type="text"]:focus{
+input[type="text"]:focus,
+textarea:focus{
 
 box-shadow: 0px 0px 5px #eee inset;
 }
 
 textarea{
     width: 100%;
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.radio-buttons {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
 }
 
 #footer{
@@ -321,4 +339,12 @@ textarea{
     margin-top: 10px;
     margin-bottom: 0px;
     border: none;
+}
+
+/*RESPONSIVE*/ 
+
+@media (max-width: 1488px){
+    body{
+        background: red;
+    }
 }
