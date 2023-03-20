@@ -344,7 +344,111 @@ textarea{
 /*RESPONSIVE*/ 
 
 @media (max-width: 1488px){
-    body{
-        background: red;
+    
+        .center{
+            width: 85%;
+        }
+    }
+
+    @media (max-width: 1300px){
+        .center{
+            width: 95%;
+        }
+
+        #menu ul{
+            width: auto;
+        }
+    }
+
+    @media (max-width: 948px){
+        .center{
+            width: 95%;
+        }
+
+        #menu ul{
+            width: auto;
+        }
+    }
+
+    @media (max-width: 841px){
+        #logo{
+            float: none;
+            width: 240px;
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+        #menu,
+        #menu ul{
+            clear: both;
+            float: none;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            line-height: 50px;
+        }
+
+        #content{
+            float: none;
+            width: 100%;
+        }
+
+        #sidebar{
+            float: none;
+            width: 60%;
+            margin: 0px auto;
+            margin-bottom: 50px;
+        }
+
+        #slider h1{
+            padding-top: 100px;
+        }
+
+        .mid-form{
+            width: 70%;
+        }
+    }
+ 
+@media(max-width: 357px){
+    #header{
+        min-height: 130px;
+        overflow: hidden;
+    }
+
+    #menu,
+    menu ul{
+        line-height: 50px;
+    }
+
+    menu ul li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #slider{
+        height: 150px;
+
+    }
+
+    #slider h1{
+        font-size: 29px;
+        padding-top: 30px;
+    }
+
+    #slider .btn-white{
+        margin-top: 10px;
+
+    }
+
+    #slider.slider-small{
+        height: 100px;
+    }
+
+    #slider.slider-small h1{
+    
+    padding-top: 35px;
     }
 }
+
+  
+
+
